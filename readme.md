@@ -26,6 +26,22 @@ The primary aim is take a string from the user and return it to the client in As
 tb38r: https://git.learn.01founders.co/tb38r
 </br>
 eternal17: https://git.learn.01founders.co/eternal17
+</br>
+</br>
+### <ins>Implementation Details: Algorithm</ins>
+
+The ListenandServe function on line 154 starts an HTTP server, listens on port 8080 incoming requests, and serves on '/ ' . (see Usage above)
+</br>
+</br>
+The http.HandleFunc(handlers) functions in Lines 152 & 153 respond to the HTTP request and register the corresponding functions with the HTTP server.
+(Handler functions are a convenient way of creating handlers which allow us to build web applications that are more modular.)
+
+
+</br>
+
+
+
+
 
 
 
