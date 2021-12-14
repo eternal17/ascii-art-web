@@ -29,6 +29,7 @@ eternal17: https://git.learn.01founders.co/eternal17
 </br>
 </br>
 ### <ins>Implementation Details: Algorithm</ins>
+</br>
 
 First, a brief summary of the *imports used within this project. 
 </br>
@@ -43,9 +44,10 @@ First, a brief summary of the *imports used within this project.
 *Os import here is used to open  files as well as some minor error handling
 </br>
 Lastly, *Strings implements simple functions to manipulate UTF-8 encoded strings. We use its contains function to search for specific parameters of the user input.
+</br>
+__________________
 
 </br>
-
 
 The ListenandServe function on line 154 starts an HTTP server, listens on port 8080 incoming requests, and serves on '/ ' . (see Usage above)
 </br>
@@ -58,7 +60,10 @@ We initialised tp1 with the Must helper for effeciency & brevity.
 </br>
 </br>
 Also of note, is a function Newline, called in from a previous project. Newline() takes in a slice of string(s) and returns it illustrated in ascii form. It's limited to the 128 characters of the ascii table.
-
+</br>
+</br>
+______
+Part 1 of the usage guidelines occurs on line 154. 
 
 
 
