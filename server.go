@@ -93,18 +93,6 @@ func processHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	// convert textbox to bytes to figure out where linebreak is (10)
-	b := []byte(testReturn.textbox)
-	count := 0
-	for _, num := range b {
-		count++
-		if num == 10 {
-			break
-		}
-	}
-
-	// checking if there is linebreak in string, returning the string seperated on 2 lines if there is
-
 	p := Banner{
 		Ban1:    "Shadow",
 		Ban2:    "Standard",
