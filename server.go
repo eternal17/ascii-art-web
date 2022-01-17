@@ -127,5 +127,5 @@ func main() {
 	tpl = template.Must(template.ParseGlob("templates/*.html"))
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/ascii-art", processHandler)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8082", nil)
 }
